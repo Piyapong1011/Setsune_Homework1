@@ -30,20 +30,8 @@ namespace homework1 {
             }
             /*  "If don't need 0 in any position"
 
-            else if (pos2 == 0){
+            else if (pos2 == 0 || pos3 == 0 || pos4 == 0 || pos5 == 0 || pos6 == 0){
                 result1 = result1 + 1; 
-            }       
-            else if (pos3 == 0){
-                result1 = result1 + 1;
-            }
-            else if (pos4 == 0){
-                result1 = result1 + 1;
-            }
-            else if (pos5 == 0){
-                result1 = result1 + 1;
-            }
-            else if (pos6 == 0){
-                result1 = result1 + 1;
             }*/
             else {
                 switch (agency){
