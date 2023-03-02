@@ -25,12 +25,11 @@ namespace homework1 {
             rest5 = rest4 - (pos5 * 10);
             int pos6 = (int)rest5/1;
 
-            if (num < 100000){
+            if (num < 100000 || num > 999999){
                 result1 = result1 + 1;
             }
-            else if (num > 999999){
-                result1 = result1 + 1;
-            }
+            /*  "If don't need 0 in any position"
+
             else if (pos2 == 0){
                 result1 = result1 + 1; 
             }       
@@ -45,7 +44,7 @@ namespace homework1 {
             }
             else if (pos6 == 0){
                 result1 = result1 + 1;
-            }
+            }*/
             else {
                 switch (agency){
                     case "CIA":
@@ -59,7 +58,6 @@ namespace homework1 {
                         else if (pos3 < 6 || pos3 == 8){
                             result1 = result1 + 1;
                         }
-                        
                         break;
 
                     case "FBI":
